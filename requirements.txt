@@ -14,9 +14,7 @@ Pillow==7.0.0
 
 psycopg2==2.9.3
 
-python-apt==2.0.0+ubuntu0.20.4.5
-python-dateutil==2.7.3
-python-debian===0.1.36ubuntu1
+
 python-decouple==3.6
 
 pytz==2019.3
