@@ -1,0 +1,177 @@
+{% load static %}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Firmbee.com - Free Project Management Platform for remote teams"> 
+    <title>twodyefour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0e035b9984.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0e035b9984.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/rrg4put.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{% static 'base/styles/main.css' %} " />
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Two Dye Four </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <main>
+        <div class="intro-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-xl-4 ms-auto mt-5">
+                <img src="{% static 'base/images/logo.jpg' %}" alt="" style="height: 70%; width: 100%;">
+              </div>
+              <div class="col-md-5 col-xl-4 ms-auto mt-5">
+                <h1>For KPLC Completion and certificates</h1>
+                <label for="">Talk to us  <span>Today</span></label>
+                <div class="news-form">
+                  <input type="email" name="email" placeholder="Enter your email" id="">
+                  <button class="main-btn" type="submit">Send <img style="width: 15px; margin-left: 15px;" src="img/icon/arrow-right-icon-black.svg" alt=""></button>
+                </div>
+              </div>
+             <section id="about">
+              <div class="col-12 d-md-flex justify-content-between mb-5">
+                <div class="light-box first">
+                    <h4>Installations</h4>
+                    <p>For all new electrical installations  </p>
+                    <a class="arrow" href="#"><img style="width: 20px;" src="{% static 'base/images/icon/arrow-right-icon.svg' %}" alt=""></a>
+                </div>
+                <div  class="light-box second">
+                    <h4>Repairs</h4>
+                    <p>Electrical Repairs and Maintenances</p>
+                    <a class="arrow" href="#"><img style="width: 20px;" src="{% static 'base/images/icon/arrow-right-icon.svg' %}" alt=""></a>
+                </div>
+                <div  class="light-box third">
+                    <h4>Certifications</h4>
+                    <p>KPLC completion certificates </p>
+                    <a class="arrow" href="#"><img style="width: 20px;" src="{% static 'base/images/icon/arrow-right-icon.svg' %}" alt=""></a>
+                </div>
+              </div>  
+             </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          
+         
+          <section id="contacts">
+            <div class="see-our-projects">
+              <h1>Contact us <span class="yellow-stroke">today</span> </h1>
+              <div class="projects-wrapper">
+                <div class="project">
+                  <div class="project-logo">
+                    <img src="img/icon/go-sm-logo-color.svg" alt="">
+                  </div>
+                  <p class="project-title">Victoria<br>
+                    Musila</p>
+                    <p class="project-description">0710821966 </p>
+                </div>
+                <div class="project">
+                  <div class="project-logo">
+                    <img src="img/icon/firmbee-color.svg" alt="">
+                  </div>
+                  <p class="project-title">Collins<br>Machuka</p>
+                    <p class="project-description">0725310537</p>
+                </div>
+                <div class="project">
+                  <div class="project-logo">
+                    <img src="img/icon/point-design-logo-color.svg" alt="">
+                  </div>
+                  <p class="project-title">Email<br>.  </p>
+                    <p class="project-description">fourdyetwo.co@gmail.com </p>
+                </div>
+              </div>
+             
+            </div>
+            
+          </section>
+          
+          <!-- Newsletter -->
+         
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+          <div class="container text-center text-md-start">
+            <div class="footer-wrap">
+              <div class="about">
+                <!-- <img src="{% static 'base/images/icon/company-logo-black.svg'%}" alt=""> -->
+                <p class="text-muted py-4">
+                  Start working with Two Dye Four which can provide you with all the tools needed for any eletrical work.
+                </p>
+                <div class="social-media">
+                  <a href="" class="me-2 text-reset"><img src="{% static 'base/images/icon/instagram-icon.svg' %}" alt=""></a>
+                  <a href="" class="me-2 text-reset"><img src="{% static 'base/images/icon/facebook-icon.svg'%}" alt=""></a>
+                  <a href="" class="me-2 text-reset"><img src="{% static 'base/images/icon/twitter-icon.svg'%}" alt=""></a>
+                  <a href="" class="me-2 text-reset"><img src="{% static 'base/images/icon/linkedin-icon.svg'%}" alt=""></a>
+                </div>
+              </div>
+              <div class="company">
+                <p class="fw-bold">Company</p>
+                <p><a href="#about">About us</a></p>
+                <p><a href="#about">Services</a></p>
+               
+               
+              </div> 
+              <div class="useful-links">
+                <p class="fw-bold">Useful links</p>
+                <p><a href="">Terms of </a></p>
+                <p><a href="#about">Services</a></p>
+                <p><a href="">Privacy Policy</a></p>
+                
+              </div>
+              <div class="newsletter">
+                <p class="fw-bold">Newsletter</p>
+                <p class="text-muted">For any Queries.</p>
+                  <form id="subscribe" action="">
+                    <label for="email">Youre e-mail:</label>
+                    <input type="email" placeholder="e-mail:" name="email" required>
+                    <button type="submit" class="main-btn">Sent</button>
+                  </form>
+              </div> 
+            </div>
+            <div class="copyright">
+              <p>&copy; 2022 twodyefour | </p>
+              <hr>
+
+              <!--
+              This template is licenced under Attribution 3.0 (CC BY 3.0 PL),
+              You are free to: Share and Adapt. You must give appropriate credit, you may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+              --> 
+          </div>
+          </div>
+      </footer>
+    <div class="fb2022-copy">Fbee 2022 copyright</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./js/nav-bg.js"></script>
+    <script src="{% static 'base/scripts/nav-bg.js' %} " />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
